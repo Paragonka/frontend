@@ -1,0 +1,90 @@
+<svg viewBox="0 0 160 100" xmlns="http://www.w3.org/2000/svg" width="600" height="375">
+  <title>OK logo</title>
+  <style>
+    .puzzle-piece {
+      transition: transform 0.3s ease;
+      transform-origin: center;
+    }
+    .puzzle-piece:hover {
+      transform: scale(1.03);
+      cursor: pointer;
+    }
+  </style>
+
+  <filter id="shadow">
+    <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="rgba(0,0,0,0.05)"/>
+  </filter>
+
+  <g stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round" filter="url(#shadow)">
+
+    <!-- LETTER "O" -->
+
+    <!-- Blue fragment (top-left) -->
+    <path class="puzzle-piece" fill="#8cb3db" d="
+      M 10 50
+      A 35 35 0 0 1 45 15
+      L 45 20 A 3.5 3.5 0 1 1 45 27 L 45 32
+      A 18 18 0 0 0 27 50
+      L 22 50 A 3.5 3.5 0 1 1 15 50 L 10 50 Z"/>
+
+    <!-- Green fragment (top-right) -->
+    <path class="puzzle-piece" fill="#98ce85" d="
+      M 45 15
+      A 35 35 0 0 1 80 50
+      L 75 50 A 3.5 3.5 0 1 0 68 50 L 63 50
+      A 18 18 0 0 0 45 32
+      L 45 27 A 3.5 3.5 0 1 0 45 20 L 45 15 Z"/>
+
+    <!-- Orange fragment (bottom-right) -->
+    <path class="puzzle-piece" fill="#f1ac88" d="
+      M 80 50
+      A 35 35 0 0 1 45 85
+      L 45 80 A 3.5 3.5 0 1 1 45 73 L 45 68
+      A 18 18 0 0 0 63 50
+      L 68 50 A 3.5 3.5 0 1 1 75 50 L 80 50 Z"/>
+
+    <!-- Purple fragment (bottom-left) -->
+    <path class="puzzle-piece" fill="#b896c7" d="
+      M 45 85
+      A 35 35 0 0 1 10 50
+      L 15 50 A 3.5 3.5 0 1 0 22 50 L 27 50
+      A 18 18 0 0 0 45 68
+      L 45 73 A 3.5 3.5 0 1 0 45 80 L 45 85 Z"/>
+
+
+    <!-- LETTER "K" -->
+
+    <!-- Green stem (top part) -->
+    <path class="puzzle-piece" fill="#98ce85" d="
+      M 90 15
+      L 110 15
+      L 110 39 A 3.5 3.5 0 1 1 110 46 L 110 50
+      L 104 50 A 4 4 0 1 0 96 50 L 90 50 Z"/>
+
+    <!-- Orange stem (bottom part) -->
+    <path class="puzzle-piece" fill="#f1ac88" d="
+      M 90 50
+      L 96 50 A 4 4 0 1 1 104 50 L 110 50
+      L 110 54 A 3.5 3.5 0 1 0 110 61 L 110 85
+      L 90 85 Z"/>
+
+    <!-- Blue diagonal (top part) -->
+    <path class="puzzle-piece" fill="#8cb3db" d="
+      M 110 50
+      L 110 46 A 3.5 3.5 0 1 0 110 39 L 110 35
+      L 122 15
+      L 147 15
+      L 126 50
+      L 121 50 A 3 3 0 1 1 115 50 L 110 50 Z"/>
+
+    <!-- Purple diagonal (bottom part) -->
+    <path class="puzzle-piece" fill="#b896c7" d="
+      M 110 50
+      L 115 50 A 3 3 0 1 0 121 50 L 126 50
+      L 147 85
+      L 122 85
+      L 110 65
+      L 110 61 A 3.5 3.5 0 1 1 110 54 L 110 50 Z"/>
+
+  </g>
+</svg>
